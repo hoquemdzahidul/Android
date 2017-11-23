@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        colors = new int[]{Color.RED , Color.GRAY , Color.GREEN , Color.BLACK , Color.YELLOW , Color.BLUE, Color.CYAN , Color.MAGENTA , Color.MAGENTA };
+        colors = new int[]{Color.RED, Color.GRAY, Color.GREEN, Color.BLACK, Color.YELLOW, Color.BLUE, Color.CYAN, Color.MAGENTA, Color.MAGENTA};
         tryMeButton = findViewById(R.id.tryMeButton);
         windowView = findViewById(R.id.windowView);
         windowView.setBackgroundColor(Color.RED);
